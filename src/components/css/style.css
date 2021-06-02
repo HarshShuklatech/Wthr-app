@@ -1,0 +1,122 @@
+
+
+
+.box{
+    height: 535px;
+    width: 398px;
+    padding-top: 20px;
+    border-radius: 28px;
+    margin-top: -90px;
+    background-color: teal;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.inputData{
+
+    margin-top: 2px;
+}
+
+
+.inputField{
+    outline: none;
+    text-align: center;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    margin-left: 86px;
+    height: 62px;
+    width: 218px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-variant: small-caps;
+    color:rgb(167, 149, 149);
+}
+
+
+.location{
+
+    font-family: 'Font Awesome 5 Free';
+    font-size: 56px;
+    margin-left: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.temp{
+    font-family: 'Font Awesome 5 Free';
+    font-size: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 77px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.Name{
+  margin-left: 20px;
+    font-size: 50px;
+    font-family: fangsong;
+    font-style: oblique;
+    color: rgb(79, 71, 71);
+
+}
+.tempmin_max{
+font-size: 20px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 75px;
+margin-bottom: auto;
+text-align: center;
+color:aliceblue;
+}
+
+
+.wave{
+
+
+    opacity: 0.3;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    background: white;
+    width: 50rem;
+    height: 50rem;
+    margin-left: -25rem;
+    margin-top: -20rem;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+    z-index: 1;
+}
+
+.wave-three{
+
+    animation: drift 5000ms infinite linear;
+    z-index: 2 !important;
+    opacity: 0.2;
+
+}
+
+.wave-two{
+
+    animation: drift 7000ms infinite linear;
+  
+    opacity: 0.1;
+    z-index: 3 !important;
+
+
+}
+.wave-one{
+    
+
+
+    animation: drift 5000ms infinite linear;
+    z-index: 2 !important;
+    opacity: 0.2;
+
+
+}
